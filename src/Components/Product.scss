@@ -1,0 +1,46 @@
+
+.linkproduct{
+    height: 350px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+
+
+
+
+.product{
+    background-color: white;
+    height: 96%;
+    width: 96%;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+
+}
+
+.product:hover{
+    height: 98%;
+    width: 98%;
+}
+
+.image-product{
+    height: 80%;
+    width: 100%;
+}
+
+.price{
+    font-weight: 700;
+}
+
+.title{
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
